@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ARM:Argumentation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ARM="http://schema.omg.org/SACM/1.0/Argumentation" xmi:id="_RxOIAOoBEemQP7HG5ZA3PQ" id="no_title" description="" content="">
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_RxOIAeoBEemQP7HG5ZA3PQ" id="G1" description="" content="Software system is well designed." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_RxOIAuoBEemQP7HG5ZA3PQ" id="S1" description="" content="based on two important phases" describedInference="_RxOIDOoBEemQP7HG5ZA3PQ _RxOvEOoBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_RxOIA-oBEemQP7HG5ZA3PQ" id="G2" description="" content="All hazards are identified" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_RxOIBOoBEemQP7HG5ZA3PQ" id="Sn1" description="" content="hazard report" url=""/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_RxOIBeoBEemQP7HG5ZA3PQ" id="G3" description="" content="All requrements are correctly considered" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_RxOIBuoBEemQP7HG5ZA3PQ" id="G4" description="" content="All Hardware requriements are correctly considered" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_RxOIB-oBEemQP7HG5ZA3PQ" id="G5" description="" content="All Softwarwe requirements are correctly considered" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_RxOICOoBEemQP7HG5ZA3PQ" id="Sn2" description="" content="hardware requirements report" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_RxOICeoBEemQP7HG5ZA3PQ" id="Sn3" description="" content="software requirements report" url=""/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_RxOICuoBEemQP7HG5ZA3PQ" id="J1" description="" content="well designed is based on def 1" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_RxOIC-oBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOICuoBEemQP7HG5ZA3PQ" target="_RxOIAeoBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_RxOIDOoBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOIA-oBEemQP7HG5ZA3PQ" target="_RxOIAeoBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_RxOIDeoBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOIBOoBEemQP7HG5ZA3PQ" target="_RxOIA-oBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_RxOvEOoBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOIBeoBEemQP7HG5ZA3PQ" target="_RxOIAeoBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_RxOvEeoBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOIBuoBEemQP7HG5ZA3PQ" target="_RxOIBeoBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_RxOvEuoBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOIB-oBEemQP7HG5ZA3PQ" target="_RxOIBeoBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_RxOvE-oBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOICOoBEemQP7HG5ZA3PQ" target="_RxOIBuoBEemQP7HG5ZA3PQ"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_RxOvFOoBEemQP7HG5ZA3PQ" id="" description="" content="" source="_RxOICeoBEemQP7HG5ZA3PQ" target="_RxOIB-oBEemQP7HG5ZA3PQ"/>
+</ARM:Argumentation>
